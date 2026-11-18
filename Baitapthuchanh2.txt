@@ -1,0 +1,31 @@
+BƯỚC 1: NGHIÊN CỨU KHÁCH HÀNG VÀ PAIN POINTS
+Mục tiêu: Phân tích đối tượng mục tiêu và xây dựng danh sách nỗi đau để làm đầu vào cố định cho Prompt 2
+[VAI TRÒ] Chuyên gia chiến lược Content Marketing B2B.
+[NHIỆM VỤ] Nghiên cứu đối tượng khách hàng mục tiêu của giải pháp "AI Chatbot cho doanh nghiệp" và lập danh sách các nỗi đau (pain points) thực tế mà sản phẩm giải quyết.
+[ĐẦU RA BẮT BUỘC]
+- Xác định rõ Chân dung khách hàng mục tiêu (Chủ doanh nghiệp SME, Trưởng phòng Vận hành/CSKH).
+- Liệt kê chi tiết các Pain points cốt lõi (Thực trạng lãng phí, chi phí nhân sự, quá tải thời gian cao điểm, sai sót trong phản hồi khách hàng).
+BƯỚC 2: THIẾT LẬP DÀN Ý CHI TIẾT (OUTLINE)
+Mục tiêu: Xây dựng khung bài viết dài 1000 - 1500 từ dựa trên đầu ra bắt buộc của Prompt 1.
+Quy tắc truyền ngữ cảnh: Đưa output của Prompt 1 vào [INPUT_PAIN_POINTS] bên dưới.
+[VAI TRÒ] Biên tập viên nội dung công nghệ.
+[NGỮ CẢNH ĐẦU VÀO] Dựa trên kết quả nghiên cứu pain points từ bước trước: [Dán toàn bộ kết quả của Bước 1 vào đây: INPUT_PAIN_POINTS].
+[NHIỆM VỤ] Thiết lập dàn ý chi tiết (Outline) cho bài viết PR chuẩn SEO dài từ 1000 - 1500 từ.
+[ĐẦU RA BẮT BUỘC]
+- Tiêu đề thu hút (Headline) chứa từ khóa chính.
+- Đoạn mở đầu (Lead) hấp dẫn giải quyết pain points.
+- Hệ thống tiêu đề con (H2, H3) tương ứng giải pháp giải quyết từng pain points.
+- Kế hoạch chèn Lời kêu gọi hành động (CTA) ở cuối bài.
+BƯỚC 3: TRIỂN KHAI VIẾT CHI TIẾT & XỬ LÝ ĐỨT GÃY TOKEN
+Mục tiêu: Viết hoàn chỉnh bài PR dựa trên dàn ý của Prompt 2, giữ nguyên tone chuyên nghiệp, tin cậy và xử lý sự cố tràn giới hạn token.
+Quy tắc truyền ngữ cảnh: Đưa output của Prompt 2 vào [INPUT_OUTLINE] bên dưới.
+[VAI TRÒ] Copywriter chuyên nghiệp lĩnh vực công nghệ.
+[NGỮ CẢNH ĐẦU VÀO] Dựa trên dàn ý chi tiết từ bước trước: [Dán toàn bộ kết quả của Bước 2 vào đây: INPUT_OUTLINE].
+[NHIỆM VỤ] Triển khai viết chi tiết từng phần của bài viết PR, tối ưu hóa từ khóa SEO và đảm bảo độ dài từ 1000 - 1500 từ.
+[RÀNG BUỘC KỸ THUẬT & GIỌNG ĐIỆU]
+- Giữ nguyên tone giọng chuyên nghiệp, tin cậy xuyên suốt.
+- Cấu trúc bài viết bắt buộc bao gồm: Tiêu đề thu hút (Headline), đoạn mở đầu (Lead) giải quyết pain points, các tiêu đề con (H2, H3) theo dàn ý, và Lời kêu gọi hành động (CTA) rõ ràng ở cuối bài.
+- Không thay đổi giọng điệu giữa các phần.
+[QUY TẮC XỬ LÝ ĐỨT GÃY KHI ĐẠT MAX TOKEN]
+- Nếu bài viết bị dừng đột ngột do hết token, tuyệt đối không viết lại từ đầu.
+- Tại vị trí dừng, sử dụng chính xác câu lệnh điều khiển tiếp tục: "Tiếp tục viết phần còn lại từ đoạn cuối cùng bạn vừa dừng, đảm bảo nối khớp hoàn hảo ý nghĩa và câu chữ" để hoàn thiện trọn vẹn bài viết.
